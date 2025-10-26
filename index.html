@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binayak Aryal - Machine Learning Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">BINAYAK ARYAL</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <span class="close-menu" onclick="toggleMobileMenu()">&times;</span>
+        <ul>
+            <li><a href="#home" onclick="toggleMobileMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMobileMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMobileMenu()">Projects</a></li>
+            <li><a href="#contacts" onclick="toggleMobileMenu()">Contacts</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1 class="greeting fade-in">Hello</h1>
+            
+            <div class="name-section fade-in">
+                <div class="cyan-line"></div>
+                <span class="name-text">I'm Binayak</span>
+            </div>
+            
+            <h2 class="role fade-in">Machine learning Engineer</h2>
+            
+            <div class="buttons fade-in">
+                <a href="#projects" class="btn btn-primary">Projects 📦</a>
+                <a href="#contacts" class="btn btn-secondary">Contact Me 📧</a>
+            </div>
+            
+            <div class="skills fade-in">
+                <div class="skill-item">
+                    <h3>PYTHON</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>DJANGO</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>MYSQL</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>NUMPY</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>TENSORFLOW</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>Pandas</h3>
+                </div>
+            </div>
+            
+            <div class="skills-bottom fade-in">
+                <div class="skill-item">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="circle-container">
+            <div class="circle-element"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Machine Learning Engineer with a strong foundation in artificial intelligence and data science. My journey in technology began with a curiosity about how machines can learn and adapt, leading me to specialize in creating intelligent systems that solve real-world problems.</p>
+                    
+                    <p>With expertise in Python, TensorFlow, and various ML frameworks, I've worked on projects ranging from predictive analytics to computer vision applications. I believe in the power of data-driven solutions and am constantly exploring new ways to leverage machine learning for innovation.</p>
+                    
+                    <p>When I'm not coding, you can find me exploring the latest research papers, contributing to open-source projects, or mentoring aspiring developers in the field of AI and machine learning.</p>
+                </div>
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        Photo coming soon
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+     <section id="projects" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Projects</h2>
+            <p>Coming soon</p>
+            <!--
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🤖</div>
+                    <h3>AI Chatbot Assistant</h3>
+                    <p>An intelligent chatbot powered by natural language processing that can understand and respond to user queries with high accuracy and context awareness.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📊</div>
+                    <h3>Stock Price Predictor</h3>
+                    <p>A machine learning model that predicts stock prices using historical data and market indicators with advanced time series analysis.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">LSTM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🔍</div>
+                    <h3>Computer Vision App</h3>
+                    <p>An image recognition application that can identify objects, faces, and scenes using deep learning and convolutional neural networks.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">CNN</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Web Scraping Tool</h3>
+                    <p>An automated web scraping tool that extracts data from multiple websites and stores it in structured formats for analysis.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">📱</div>
+                    <h3>Django Web App</h3>
+                    <p>A full-stack web application built with Django that includes user authentication, database management, and RESTful APIs.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🧠</div>
+                    <h3>Neural Network Library</h3>
+                    <p>A custom neural network library built from scratch in Python for educational purposes and lightweight machine learning tasks.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Mathematics</span>
+                        <span class="tech-tag">ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contacts" class="section">
+        <div class="section-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to say hello, feel free to reach out!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            binayakrajaryal@gmail.com
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +977 9845826491
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Location</strong><br>
+                            Hetauda, Nepal
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <strong>LinkedIn</strong><br>
+                             https://www.linkedin.com/in/binayak-aryal-2942b5285/
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+  <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+    <!-- Your Access key -->
+    <input type="hidden" name="access_key" value="1afa5aa0-fb7e-404c-8714-a1db6da5c74b">
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+
+    <p id="form-status" style="color: green; display: none; margin-top: 10px;">
+      Message sent successfully!
+    </p>
+  </form>
+</div>
+     </section>
+</body>
+<script src="script.js"></script>
+</html>
